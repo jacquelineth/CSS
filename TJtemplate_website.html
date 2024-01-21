@@ -1,34 +1,122 @@
 <!doctype html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8" />
-    <title>My CSS to the world</title>
-    <style>
-      
-      .favorite {background-color: lightgreen}
-      .cinema {box-sizing:border-box;
-         font-family: Verdana;
-         font-size: large;
-         
-        }
-      .seaFavorite{
-        border-style: groove;
-        border-color: cornflowerblue;
-        border: 5px dotted blueviolet; background-color: aquamarine;color: rgb(5, 33, 58);}
-      body {background-size: cover;
-        cursor:url("https://javierferrersb.github.io/cursors/amongus.png"),auto;
-            background-repeat: no-repeat;
-            background-color: aquamarine;
-            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_n2pt2qcsmvwlswAAVK1Jm7aVFW1V9A1n1g&usqp=CAU")
-            ; text-align: center}
-      h1 { font-family: Tahoma ;font-style: italic;color:white;cursor:progress}
-      h2 {color:darkgoldenrod;text-decoration:underline; }
-      h3 {color:rgb(184, 11, 141);text-decoration:solid }
-      h4 {font-size: larger;}
-      p{ padding:10%;font-style:oblique}
-    </style>
-  </head>
-  <!--Change white to the name of the color that you want your background to be
+
+<head>
+  <meta charset="utf-8" />
+  <title>My CSS to the world</title>
+  <style>
+    .favorite {
+      background-color: lightgreen
+    }
+
+    .cinema {
+      box-sizing: border-box;
+      font-family: Verdana;
+      font-size: 85%;
+
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin-right: 150px;
+      margin-left: 80px;
+
+      /* Define a variable for the cursor icon image URL */
+      --cursor-icon-url: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/120px-IMDB_Logo_2016.svg.png?20200406194337");
+
+      /* Change the cursor to an image icon on hover for elements with class "cursor-image" */
+      cursor: var(--cursor-icon-url), auto;
+    }
+
+
+
+
+
+    .seaFavorite {
+      border-style: groove;
+      border-color: cornflowerblue;
+      border: 5px dotted blueviolet;
+      background-color: aquamarine;
+      color: rgb(5, 33, 58);
+    }
+
+    body {
+      /* background-size: cover; */
+      cursor: url("https://javierferrersb.github.io/cursors/amongus.png"), auto;
+      background-repeat: no-repeat;
+      background-color: aquamarine;
+      /* background-image: url("); */
+      text-align: center;
+
+      font: 75% georgia, sans-serif;
+      line-height: 1.88889;
+	    color: #555753; 
+	    background: #a1b5f6 url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_n2pt2qcsmvwlswAAVK1Jm7aVFW1V9A1n1g&usqp=CAU) no-repeat top left; 
+	    margin: 0; 
+	    padding: 0;
+    }
+
+    h1 {
+      font-family: Tahoma;
+      font-style: italic;
+      color: white;
+      cursor: progress
+    }
+
+    h2 {
+      color: darkgoldenrod;
+      text-decoration: underline;
+    }
+
+    h3 {
+      color: rgb(184, 11, 141);
+      text-decoration: solid
+    }
+
+    h4 {
+      font-size: larger;
+      border-radius: 25px;
+      background: #73AD21;
+      padding: 20px; 
+      width: 200px;
+      height: 150px; 
+    }
+
+    p {
+      padding: 10%;
+      font-style: oblique;
+      margin-top: 0; 
+	    text-align: justify;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    li {
+      font-family: Verdana;
+    }
+
+    a:link {
+      font-weight: bold;
+      text-decoration: none;
+      color: #B7A5DF;
+    }
+
+    a:visited {
+      font-weight: bold;
+      text-decoration: none;
+      color: #D4CDDC;
+    }
+
+    a:hover,
+    a:focus,
+    a:active {
+      text-decoration: underline;
+      color: #9685BA;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<!--Change white to the name of the color that you want your background to be
     and center to either start, center, or end depending on where you want your text to be aligned
 
        style="background-color:white; text-align: start"-->
@@ -47,7 +135,7 @@
         <li class="cinema"><a href="https://www.imdb.com/title/tt0093565/"> Moonstruck</a>  </li>        
       </ul>
     </div>
-    <p>Music</p>
+    <h2>Music</h2>
     <h2>Top 3</h2>
     <p>
       <div>
