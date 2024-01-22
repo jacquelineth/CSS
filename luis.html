@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-US">
+welcome to my website
+
+<head>
+  <meta charset="utf-8" />
+  <title>games that I like </title>
+  <style>
+    body {
+      background-color: aqua;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwfVcD0Bpp4Vtzz4dAu9wPZ_quXRjpdSFsSg&usqp=CAU"); 
+    
+      background-repeat: no-repeat;
+      background-size: contain;
+      cursor: url("https://javierferrersb.github.io/cursors/amongus.png"), auto;
+
+      text-align: center;
+
+      
+      font-size: 2vw;
+        /* Adjust as needed */
+    
+
+
+    }
+
+    h1 {
+      font-style: initial;
+      color: rgba(224, 35, 35, 0.911);
+      font-size: 8vh;
+      /* Adjust as needed */
+    }
+
+    h2 {
+      color: rgb(197, 20, 20);
+    }
+
+    h2 {
+      color: rgb(207, 24, 24);
+      text-decoration: underline
+    }
+
+    .favorite {
+
+      box-shadow: 0 0 0 2px black;
+      background-color: aquamarine;
+      color: rgb(5, 33, 58);
+      font-size: 2vw;
+      /* Adjust as needed */
+    }
+
+    .container {
+      display: grid;
+      place-items: justify;
+      height: 100vh;
+      /* Adjust as needed */
+    }
+    .nav {
+      display: flex;
+      justify-content: space-around;
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    .nav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    @media screen and (max-width: 600px) {
+      .nav a {
+        display: none; /* Hide all links when the viewport is less than 600px wide */
+      }
+
+      .nav a.icon {
+        display: block; /* Except for the icon link */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="nav">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <div class="container">
+    <h1>pong</h1>
+    <h2 class="favorite">Table Rock</h2>
+    <h2>street fighter</h2>
+    <p>play games for free</p>
+    <h2>pac man</h2>
+    <p>INFORMATION ON SUBTOPIC 2</p>
+    <h2>mario.bros</h2>
+    <p>INFORMATION ON SUBTOPIC 3</p>
+  </div>
+</body>
+
+</html>
